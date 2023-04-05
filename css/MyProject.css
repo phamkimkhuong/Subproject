@@ -1,0 +1,45 @@
+#container{
+    width: 1440px;
+    height:2821px;
+    align-items: center;
+}
+#top{
+    width: 100%;
+    height: 354px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: burlywood;
+}
+#top > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#top:nth-child(1){
+    font-size: 30;
+
+}
+#center{
+    width: 1432px;
+    height: 2046px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#center div{
+    width: 1176px;
+    height: 407px;
+    background-color: chartreuse;
+}
+#center button{
+    width: 200px;
+    height: 52px;
+}
+#bottom{
+    width: 1440px;
+    height: 421px;
+    background-color: blueviolet;
+}
