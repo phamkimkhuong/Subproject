@@ -142,8 +142,9 @@ body{
 
     .item-content{
         width: 30%;
-        padding-top: 14%;
-        padding-left: 3%;
+    padding-top: 6%;
+    padding-left: 3%;
+    padding-right: 4%;
     }
 
 
@@ -255,15 +256,8 @@ input:focus {
 input[type="text"]:focus {
     color:rgb(177,182,191);
 }
-input[type="submit"]{
-    margin-top: 15px;
-    width: 173px;
-    height: 52px;
-    cursor: pointer;
-    color:aliceblue;
-    background-color: rgb(227,77,115);
-    font-size: 20px;
-}
+
+
 
 .bottom-title{
     width: 30%;
@@ -297,6 +291,21 @@ input[type="submit"]{
 }
 
 .bottom-brand{
+    cursor: pointer;
+}
+
+.title12{
+    font-size: 1rem;
+}
+
+.submit-1{
+    width: 20%;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 5%;
+    background-color: #e34d73;
+    color: white;
     cursor: pointer;
 }
    /* @media screen and(max-width:1000px) {
