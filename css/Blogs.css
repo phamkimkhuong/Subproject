@@ -148,7 +148,7 @@ body, html {
 
     .item {
         flex-basis: 33.33%;
-        padding: 10px;
+        padding:20px 10px;
         box-sizing: border-box;
         text-align: center;
     }

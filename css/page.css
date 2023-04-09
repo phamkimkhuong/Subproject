@@ -467,6 +467,11 @@ Centertop */
 
 .footer-li{
     margin: 0 8px;
+    color: white;
+}
+
+.footer-li:hover{
+    color: blue;
 }
 
 .email{
@@ -518,6 +523,9 @@ Centertop */
     background-color: #6d7077;
     color: #8fb65b;
     cursor: pointer;
+}
+.footer-a{
+    text-decoration: none;
 }
 
 /* Reponsive */
