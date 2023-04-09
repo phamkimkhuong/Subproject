@@ -226,7 +226,7 @@ Centertop */
 
 .browse{
     height: 35px;
-    width: 13%;
+    width: 15%;
     background-color: white;
     color: #d87e9a;
     border: 1px solid #d87e9a;
@@ -488,37 +488,14 @@ Centertop */
 }
 
 .footer-right{
-    width: 46%;
+    width: 60%;
     padding-top: 50px;
     padding-left: 30px;
 }
 
-/* .fieldset{
-    border-radius: 3px;
-    border: 1px solid white;
-}
-
-.fieldset2{
-    height: 40%;
-}
-
-.footer-input{
-    color: white;
-    background-color: #1d2228;
-    border: none;
-    width: 80%;
-    outline: none;
-}
-
-
-.submit-footer:hover{
-    background-color: #6d7077;
-    color: #8fb65b;
-    cursor: pointer;
-}
 .footer-a{
     text-decoration: none;
-} */
+} 
 
 .submit-footer{
     width: 20%;
@@ -539,12 +516,12 @@ Centertop */
 }
 
 .email{
-    width:588px ;
+    width:80%;
     height:20% ;
     border: none;
 }
 .message{
-    width:588px ;
+    width:80% ;
     height:125px ;
     border: none;
 }
@@ -566,6 +543,11 @@ legend{
 .message::placeholder{
     position: absolute;
     top: 0.2em;
+}
+
+#myForm{
+    width: 90%;
+    padding-right: 20%;
 }
 
 /* Reponsive */
@@ -603,7 +585,7 @@ legend{
     
       .img-img22-reposive{
         padding-top: 0;
-        height: 210px;
+        height: 27vh;
         width: 195%;
       }
     
@@ -625,8 +607,9 @@ legend{
       }
     
       .img-img32-reponsive{
-        width: 113%;
+        width: 100%;
         height: 340px;
+        max-width: 100%;
       }
     
       .view-reponsive{
@@ -647,6 +630,57 @@ legend{
       .img8{
         width: 103%;
       }
-     
+}
+
+/* Mobile */
+@media (max-width:766px) {
+    .m-12{
+        max-width: 100%;
+        width: 49%;
+        top: 75px;
+        left: -37px;
+    }
+    .m-13{
+        max-width: 100%;
+    }
+    .m-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 0px;
+    margin-right: 0%;
+      }
+      .m-item {
+        font-size: 30px;
+        text-align: center;
+      }
+      .m-none{
+        display: none;
+      }
+
+      .m-21{
+        padding-top: 16%;
+      }
+      .m-left{
+        padding-right: 28px;
+      }
+      .m-view{
+        margin-top: 54%;
+      }
+
+      .m-31{
+        max-width: 100%;
+        width: 100%;
+        height: 78%;
+      }
+
+      .m-div-32{
+        padding-top: 10%;
+      }
+
+      .m-32{
+        max-width: 100%;
+        width: 100%;
+        height: 87%;
+      }
 }
 
