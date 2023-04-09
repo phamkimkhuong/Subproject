@@ -20,7 +20,7 @@ body, html {
 
 /* Title */
 .app-top{
-    margin: 1% 5% 0 5%;
+    margin: 2.5% 5% 0 5%;
 }
 
 .center-title{
@@ -33,14 +33,15 @@ body, html {
 
 .title-span{
     color: #16191e;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: 700;
 }
 
 .content{
     text-decoration: none;
     color: #6d7077;
-    margin: 5px;
+    margin: 10px;
+    font-size: 0.9rem;
 }
 
 .content:hover{
