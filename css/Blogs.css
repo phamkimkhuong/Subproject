@@ -9,6 +9,11 @@ body, html {
     line-height: 1.2;
 }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
     #container{
         width: 100%;
         max-width: 100%;
@@ -204,7 +209,7 @@ body, html {
 }
 .email{
     width:588px ;
-    height:74px ;
+    height:20% ;
     border: none;
 }
 .message{
@@ -258,6 +263,41 @@ input[type="submit"]{
     color:aliceblue;
     background-color: rgb(227,77,115);
     font-size: 20px;
+}
+
+.bottom-title{
+    width: 30%;
+}
+
+.bottom{
+    width: 100%;
+}
+
+.bottom-h1{
+    color: white;
+}
+
+.brand-a{
+    text-decoration: none;
+}
+
+.brand{
+    padding-left: 0;
+    display: flex;
+}
+
+.brand-li{
+    color: white;
+    margin: 0 9px;
+    font-size: 0.8rem;
+}
+
+.brand-li:hover{
+    color: blue;
+}
+
+.bottom-brand{
+    cursor: pointer;
 }
    /* @media screen and(max-width:1000px) {
       
