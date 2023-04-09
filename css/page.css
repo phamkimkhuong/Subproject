@@ -5,6 +5,7 @@
 }
 
 body{
+    width: 100% ;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -634,53 +635,63 @@ legend{
 
 /* Mobile */
 @media (max-width:766px) {
-    .m-12{
+    .m-app{
+        width: 100%;
         max-width: 100%;
-        width: 49%;
-        top: 75px;
-        left: -37px;
+    }
+    .m-title{
+        display: none;
+    }
+    .m-content1{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #16191e;
+    margin-right: 0;
+    }
+    .m-content2{
+        margin-right: 0;
+    }
+    .m-center-left{
+        display: block;
+    }
+    .m-more{
+        display: none;
     }
     .m-13{
         max-width: 100%;
+    width: 100%;
+    height: auto;
     }
-    .m-grid {
-        display: grid;
-        grid-template-columns: auto auto;
-        padding: 0px;
-    margin-right: 0%;
-      }
-      .m-item {
-        font-size: 30px;
+    .m-left-left{
         text-align: center;
-      }
-      .m-none{
+    }
+    .m-12{
         display: none;
-      }
-
-      .m-21{
-        padding-top: 16%;
-      }
-      .m-left{
-        padding-right: 28px;
-      }
-      .m-view{
-        margin-top: 54%;
-      }
-
-      .m-31{
+    }
+    .m-left{
+        width: 35%;
+    padding-left: 4px;
+    padding-top: 10px;
+    }
+    .m-grid{
+        display: grid;
+        margin-right: 6px;
+    }
+    .m-21{
+        height: 196px;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 0;
+    }
+    .m-22{
+        padding-top: 0;
         max-width: 100%;
         width: 100%;
-        height: 78%;
-      }
-
-      .m-div-32{
-        padding-top: 10%;
-      }
-
-      .m-32{
-        max-width: 100%;
-        width: 100%;
-        height: 87%;
-      }
+        height: 178px;
+        margin: 0;
+    }
+    .m-31{
+        display: none;
+    }
 }
 
