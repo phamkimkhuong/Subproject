@@ -23,7 +23,8 @@
 
 #top{
     width: 100%;
-    height: 354px;
+    /* height: 354px; */
+    height: auto;
     display: flex;
     flex-direction: column;
     /* background-color: burlywood; */
