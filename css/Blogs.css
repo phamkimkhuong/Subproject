@@ -141,11 +141,43 @@ body, html {
         padding-left: 3%;
     }
 
+    #center{
+        margin-top: 32px;
+    }
+
     .content-item{
         font-size: 2rem;
         font-weight: 700;
     }
    
+
+    .center-container{
+        display: flex;
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+        width: 100%;
+    }
+
+    .center-container1{
+        display: flex;
+        width: 33.4%;
+    }
+
+    .img-img{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .center-container1-container{
+        padding: 0.1125rem;
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+
    #bottom{
     width: auto;
     height: 421px;
