@@ -121,7 +121,7 @@ legend{
 #top_title > div > div:nth-child(1){
     height: auto;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 5vw;
     text-align: left;
     width: 100%;
 }
@@ -143,13 +143,15 @@ legend{
     border-top-right-radius:50% ;
 }
 #bottom{
+    margin-top: 3%;
     width: 100%;
     height: auto;
     background-color:rgb(29,33,40);
     color: azure;
+    font-size: 2vw;
 }
 #bottom > div:nth-child(1){
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -163,28 +165,38 @@ legend{
     opacity: 0.5;
 }
 #connect{
-    height: 5rem;
+    width: 50%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: center;
 }
 #connect > div {
-    width: 20em;
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
+#connect > div:nth-child(2) {
+    margin-top: 3%;
+}
 #connect > div div {
-    width: 7rem;
+    width: 30%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
 }
 #bottom_right{
     margin-top: 0.5rem;
     text-align: left;
+}
+#bottom img{
+    width: auto;
+    height: auto;
 }
 .skype{
     margin-top: 0.5rem;
