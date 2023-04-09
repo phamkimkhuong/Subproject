@@ -98,7 +98,7 @@
                 </div>
             </div>
             <div class="top-center4">
-                <button class="browse">Browse all projects</button>
+                <input type="submit" value="Browses all project" class="browse">
             </div>
             <div class="top-center5">
                 <div class="center5_skill">
@@ -132,7 +132,7 @@
                     </div>
                     <div class="center-content3">
                         <button class="next">Next</button>
-                        <i class="fas fa-arrow-right muiten6"></i>
+                        
                     </div>
                 </div>
             </div>
@@ -198,17 +198,27 @@
                 </div>
             </div>
             <div class="footer-right">
-                <fieldset class="fieldset">
-                    <legend class="email">Email</legend>
-                    <input type="tel" name="" class="footer-input" placeholder="Your email address">
-                </fieldset>
-                <fieldset class="fieldset fieldset2">
-                    <legend class="message">Input your message</legend>
-                    <input type="tel" name="" class="footer-input" placeholder="Descrip your project">
-                </fieldset>
-                <button class="submit-footer">Submit</button> 
+                <form action="" id="myForm">
+                    <fieldset>
+                        <legend>Email</legend>
+                        <input class="email" style="background-color: rgb(29,33,40);" type="text" placeholder="Your email address" title="Email">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Input your message</legend>
+                        <input class="message"  style="background-color: rgb(29,33,40);" type="text" placeholder="Describe your project">
+                    </fieldset>
+                    <div class="footer-right-submit">
+                        <input type="submit" class="submit-footer">
+                    </div>
+                </form>
             </div>
         </div>
     </div>
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function(event) {
+            event.preventDefault(); 
+            alert("Bạn đã Submit thành công !");
+        });
+    </script>
 </body>
 </html>

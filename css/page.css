@@ -493,7 +493,7 @@ Centertop */
     padding-left: 30px;
 }
 
-.fieldset{
+/* .fieldset{
     border-radius: 3px;
     border: 1px solid white;
 }
@@ -510,14 +510,6 @@ Centertop */
     outline: none;
 }
 
-.submit-footer{
-    width: 20%;
-    height: 30px;
-    border-radius: 3px;
-    border: none;
-    background-color: #e34d73;
-    color: white;
-}
 
 .submit-footer:hover{
     background-color: #6d7077;
@@ -526,6 +518,54 @@ Centertop */
 }
 .footer-a{
     text-decoration: none;
+} */
+
+.submit-footer{
+    width: 20%;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    background-color: #e34d73;
+    color: white;
+    cursor: pointer;
+}
+
+.submit-footer:hover{
+    background-color: #6d7077;
+}
+
+.footer-right-submit{
+    margin-top: 10px;
+}
+
+.email{
+    width:588px ;
+    height:20% ;
+    border: none;
+}
+.message{
+    width:588px ;
+    height:125px ;
+    border: none;
+}
+fieldset{
+    border-radius: 5px;
+}
+fieldset:nth-child(2){
+    margin-top: 20px;
+}
+legend{
+    font-size: 0.8rem;
+    color: aliceblue;
+    font-weight: 500;
+}
+::placeholder{
+    color:rgb(177,182,191) ;
+    font-size: 20px;
+}
+.message::placeholder{
+    position: absolute;
+    top: 0.2em;
 }
 
 /* Reponsive */
