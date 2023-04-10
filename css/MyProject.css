@@ -11,6 +11,13 @@
     display: flex;
     justify-content: center;
 }  */
+
+body, html {
+    font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.2;
+}
+
 #container{
     width: 100%;
     max-width: 1440px;
@@ -83,6 +90,28 @@
 #top:nth-child(1){
     font-size: 30;
 
+}
+
+.right-button{
+    color: black;
+    font-size: 0.9rem;
+}
+
+.right-button:hover{
+    color: rgb(229,91,126);
+}
+
+.name-folio{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.view-project1{
+    color: black;
+}
+
+.view-project1:hover{
+    color: blue;
 }
 #center{
     width: 100%;
@@ -182,12 +211,22 @@
     align-self: flex-start;
 }
 #view_more{
-    border: 2px solid rgb(227,77,115);;
+    border: 1px solid rgb(227,77,115);;
     width: 200px;
     height: 52px;
     color: rgb(227,77,115);
     cursor: pointer;
     margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+#view_more:hover{
+    background-color: #999;
+}
+
+#submit-id{
+    border-radius: 3px;
+    border: none;
 }
 #bottom{
     width: auto;

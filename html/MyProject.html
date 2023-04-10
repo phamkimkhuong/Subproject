@@ -12,12 +12,13 @@
         <div id="container">
             <div id="top">
                 <div id="top_option">
-                    <div>Name-folio</div>
+                    <div>
+                       <span class="name-folio">Name-folio</span></div>
                     <div id="right">
-                        <button>Projects</button>
-                        <button>About me</button>
-                        <button> Blog</button>
-                        <button>Contacts</button>
+                        <button class="right-button">Projects</button>
+                        <button class="right-button">About me</button>
+                        <button class="right-button"> Blog</button>
+                        <button class="right-button">Contacts</button>
                     </div>
                 </div>
                 <div id="top_title">
@@ -56,7 +57,7 @@
                             <div>Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat <br>
                             magna fugiat quis sit duis est in volup</div>
                         </div>
-                        <button>View project
+                        <button class="view-project1">View project
                             <img src="/images/Projects/right-arrow.png" alt="">
                         </button>
                     </div>
@@ -73,7 +74,7 @@
                             <div>Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat <br>
                             magna fugiat quis sit duis est in volup</div>
                         </div>
-                        <button>View project
+                        <button class="view-project1">View project
                             <img src="/images/Projects/right-arrow.png" alt="">
                         </button>
                     </div>
@@ -91,7 +92,7 @@
                             <div>Sint occaecat deserunt aliquip do occaecat ut quis. Cupidatat <br>
                             magna fugiat quis sit duis est in volup</div>
                         </div>
-                        <button>View project
+                        <button class="view-project1">View project
                             <img src="/images/Projects/right-arrow.png" alt="">
                         </button>
                     </div>
@@ -108,16 +109,16 @@
                      work together !</div>
                     <div>
                         <div id="connect">
-                            <img src="/images/Projects/Instagram 61.png" alt="">
-                            <img src="/images/Projects/Dribbble logo 1.png" alt="">
-                            <img src="/images/Projects/LinkedIn logo 1.png" alt="">
-                            <img src="/images/Projects/Envelope open 1.png" alt="">
+                         <img src="/images/Projects/Instagram 61.png" alt="">
+                         <img src="/images/Projects/Dribbble logo 1.png" alt="">
+                         <img src="/images/Projects/LinkedIn logo 1.png" alt="">
+                         <img src="/images/Projects/Envelope open 1.png" alt="">
                         </div>
                         <div style="color: azure;">© 2022 Brand, Inc. • Privacy • Terms • Sitemap</div>
                     </div>
                 </div>
                 <div>
-                    <form action="">
+                    <form action="" id="myForm">
                         <fieldset>
                             <legend>Email</legend>
                             <input class="email" style="background-color: rgb(29,33,40);" type="text" placeholder="Your email address" title="Email">
@@ -126,11 +127,17 @@
                             <legend>Input your message</legend>
                             <input class="message"  style="background-color: rgb(29,33,40);" type="text" placeholder="Describe your project">
                         </fieldset>
-                            <input type="submit" name="" id="" value="Submit">
+                            <input type="submit" name="" id="submit-id" value="Submit">
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function(event) {
+            event.preventDefault(); 
+            alert("Bạn đã Submit thành công !");
+        });
+    </script>
 </body>
 </html>
