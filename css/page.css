@@ -690,7 +690,57 @@ legend{
         height: 178px;
         margin: 0;
     }
+    .m-23{
+        display: none;
+    }
     .m-31{
+        display: none;
+    }
+    .m-32{
+        height: 100%;
+        max-width: 173%;
+        width: 154%;
+    }
+    .m-left-center3{
+        display: none;
+    }
+    .m-view{
+        display: none;
+    }
+    .m-browse{
+        width: 44%;
+    }
+    .m-say{
+        display: none;
+    }
+    .m-app-footer{
+        display: block;
+    }
+    .m-footer-left2{
+        display: flex;
+        margin-right: -149%;
+    padding-left: 0;
+    justify-content: space-around;
+    }
+    .m-footer-left3{
+        padding-left: 0;
+        margin-right: -191px;
+    }
+    .m-footer-right{
+        max-width: 100%;
+        width: 100%;
+        padding-left: 5%;
+    }
+    .m-photo{
+        margin-bottom: 0;
+    }
+    .m-graphic{
+        margin-bottom: 0;
+    }
+    .m-creativity{
+        margin-bottom: 0
+    }
+    .m-footer-right-submit{
         display: none;
     }
 }
